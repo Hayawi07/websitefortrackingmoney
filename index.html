@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strona od  spłacania komputera</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="stars"></div>
+
+<div class="welcome-text">Witaj Oskar!</div>
+
+<div class="progress-title">Oto postęp spłaty komputera</div>
+
+<div class="progress-container">
+    <div class="progress-bar-wrapper">
+        <div class="progress-bar" style="--progress: 0%;" data-progress="0%"></div>
+    </div>
+    <div class="amount-labels">
+        <div class="amount-label">0 zł</div>
+        <div class="amount-label">4000 zł</div>
+    </div>
+</div>
+
+<div class="remaining-amount">
+    Pozostało do spłaty: <span id="remaining-amount">0 zł</span>
+</div>
+
+<div class="payment-list">
+    <ul>
+        <li>01.01.2024 - 200 zł</li>
+        <li>01.02.2024 - 200 zł</li>
+        <li>01.03.2024 - 200 zł</li>
+    </ul>
+</div>
+
+<div class="paid-amount">
+    Zapłacono: <span id="paid-amount">0 zł</span>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
