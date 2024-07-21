@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
     const totalAmount = 4000;
-    const payments = [0, 0]; // Zaktualizowana lista wpłat
+    const payments = [100, 0]; // Zaktualizowana lista wpłat
     const paidAmount = payments.reduce((acc, payment) => acc + payment, 0);
     const remainingAmount = totalAmount - paidAmount;
     const progressPercent = ((totalAmount - remainingAmount) / totalAmount) * 100;
